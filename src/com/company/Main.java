@@ -13,6 +13,7 @@ public class Main {
 
       //  String text = in.nextLine();
 
+        System.out.println("Enter the string: ");
         StringBuffer sb = new StringBuffer(in.nextLine());//входная строка
         StringBuffer temp = new StringBuffer("");//строка для вывода
         char[] delimiters = new char[]{'.', ',', ' ', '?', '!', '-', '\t', '\n', '\r'}; //массив разделительных знаков
@@ -72,6 +73,7 @@ public class Main {
             temp.append(golos[i]).append(" ");
         }
         //вывод
+        System.out.println("Result: ");
         System.out.println(temp);
     }
     //функция проверки на символ
